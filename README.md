@@ -16,7 +16,7 @@
 ## messages
 |column|type|options|
 |------|----|-------|
-|content|text|null: false|
+|content|text||
 |image|string||
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
@@ -29,7 +29,7 @@
 ## groups
 |columu|type|options|
 |------|----|-------|
-|name|string|null: false, foreign_key: true|
+|name|string|null: false|
 |
 
 
